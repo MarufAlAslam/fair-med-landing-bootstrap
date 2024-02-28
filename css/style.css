@@ -121,8 +121,27 @@ header::before {
     line-height: 1;
 }
 
-.yes-text{
+.yes-text {
     color: #ffe814;
     font-size: 100px;
     font-weight: 600;
+}
+
+.sky {
+    background-image: url("../img/sky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.fs-120 {
+    font-size: 120px;
+}
+
+.lh-1 {
+    line-height: 1;
+}
+
+.fs-70 {
+    font-size: 70px;
 }
