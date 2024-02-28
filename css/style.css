@@ -5,6 +5,12 @@ html {
     min-height: 100vh;
 }
 
+.wrapper {
+    width: 100%;
+    max-width: 1650px;
+    margin: 0 auto;
+}
+
 @font-face {
     font-family: "archivo-narrow";
     src: url("../fonts/ArchivoNarrow.ttf");
@@ -113,4 +119,10 @@ header::before {
 .btn-yellow {
     background-color: #ffe814 !important;
     line-height: 1;
+}
+
+.yes-text{
+    color: #ffe814;
+    font-size: 100px;
+    font-weight: 600;
 }
