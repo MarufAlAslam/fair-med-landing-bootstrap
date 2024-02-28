@@ -1,0 +1,32 @@
+body,
+html {
+    overflow-x: hidden;
+    background-color: #f5f5f5;
+}
+
+@font-face {
+    font-family: "archivo-narrow";
+    src: url("../fonts/ArchivoNarrow.ttf");
+}
+
+@font-face {
+    font-family: "muli-black";
+    src: url("../fonts/Muli-Black.ttf");
+}
+
+@font-face {
+    font-family: "muli-semibold";
+    src: url("../fonts/Muli-SemiBold.ttf");
+}
+
+* {
+    font-family: "muli-semibold";
+}
+
+.muli-black {
+    font-family: "muli-black";
+}
+
+.archivo {
+    font-family: "archivo-narrow";
+}
