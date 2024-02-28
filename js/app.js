@@ -1,7 +1,9 @@
 $('.slider').slick({
-    dots: true,
+    dots: false,
     infinite: true,
-    speed: 300,
+    speed: 900,
     slidesToShow: 1,
-    slideToScroll: 1
+    slideToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
 });
